@@ -1,0 +1,33 @@
+## The function takes 2 parameters: an array of whole numbers and an integer.
+## The function looks for unique pairs of numbers in the array which sum to the integer.
+def pair_sum(x,  y):
+  ind == 0
+  res == 0
+  res2 == 0
+  arr[] = y
+  while ind  < count(arr):          # length of array
+    res = arr[ind] + arr[ind + 1]   # number in array position  plus next number
+    if res = x:
+      res2++
+    ind++                           # increment array position
+  return res2                       # returns final sum
+
+## Running the function
+
+x == 1
+y[] == [3, 4, 5, 6]
+pair_sum(x,   y)
+
+x == 15
+y[] == [0, 15, 32, 2000, 15000]
+pair_sum(x,   y)
+
+x == 42
+y[] == [1, 1, 10, 32, 41]
+pair_sum(x,   y)  
+
+
+      
+    
+    
+  
